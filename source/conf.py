@@ -16,7 +16,7 @@ release = 'nowww'
 
 extensions = ['sphinx.ext.autodoc', 'sphinx_rtd_theme']
 
-templates_path = ['templates']
+templates_path = []
 exclude_patterns = []
 
 
@@ -28,4 +28,6 @@ exclude_patterns = []
 
 html_theme = 'sphinx_rtd_theme'
 
-# html_static_path = ['static']
+html_static_path = []
+
+html_output_folder=['html']
